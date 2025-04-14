@@ -1,9 +1,10 @@
 import { useState, useEffect } from "react";
-import img1 from "../src/assets/images/motiv1.jpg"
-import img2 from "../src/assets/images/motiv2.jpg"
-import img3 from "../src/assets/images/motiv3.jpg"
-import img4 from "../src/assets/images/motiv4.jpg"
-import img5 from "../src/assets/images/motiv5.jpg"
+ 
+import img1 from "../assets/images/motiv1.jpeg"
+import img2 from "../assets/images/motiv2.jpeg"
+import img3 from "../assets/images/motiv3.jpeg"
+import img4 from "../assets/images/motiv4.jpeg"
+import img5 from "../assets/images/motiv5.jpeg"
 
 
 const images = [

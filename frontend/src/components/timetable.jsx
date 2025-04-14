@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const ClassTimetable = () => {
   const timetableData = [
@@ -72,13 +73,13 @@ const ClassTimetable = () => {
                 All Events
               </li>
               <li className="px-4 py-2 bg-gray-200 text-gray-800 rounded-lg cursor-pointer">
-                Fitness Tips
+               <Link to="/tips">  Fitness Tips</Link>
               </li>
               <li className="px-4 py-2 bg-gray-200 text-gray-800 rounded-lg cursor-pointer">
-                Motivation
+                <Link to="/motivation">Motivation</Link> 
               </li>
               <li className="px-4 py-2 bg-gray-200 text-gray-800 rounded-lg cursor-pointer">
-                Workout
+              <Link to="/fullbodyexercises"> Workout</Link>  Workout
               </li>
             </ul>
           </div>
